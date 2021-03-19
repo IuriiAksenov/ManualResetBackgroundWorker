@@ -1,7 +1,7 @@
 
 
 
-# Фоновый поток с возможностью рестарта по востребованию / Background цщклук with the ability to restart on demand
+# Фоновый поток с возможностью рестарта по востребованию / Background worker with the ability to restart on demand
 
 (ENG is below)
 

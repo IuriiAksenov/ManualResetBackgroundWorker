@@ -20,8 +20,8 @@ namespace SampleServer.Extensions
             using var serviceProvider = services.BuildServiceProvider();
             var configuration = serviceProvider.GetRequiredService<IConfiguration>();
             services.AddOptions();
-            services.Configure<T>(configuration.GetSection(SectionName));
-            services.AddSingleton(configuration.GetOptions<T>(SectionName));
+            services.Configure<T>(configuration.GetSection(sectionName));
+            services.AddSingleton(configuration.GetOptions<T>(sectionName));
 
             return services;
         }
